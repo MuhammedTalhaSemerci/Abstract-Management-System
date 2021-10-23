@@ -1,0 +1,4 @@
+[10-Mar-2021 17:23:07 Europe/Istanbul] PHP Notice:  Undefined variable: abstract_websites in /home/fikretakdis/public_html/ekongre.nutuva.com/view/kayit.php on line 120
+[10-Mar-2021 17:23:07 Europe/Istanbul] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/fikretakdis/public_html/ekongre.nutuva.com/view/kayit.php on line 120
+[10-Mar-2021 17:23:07 Europe/Istanbul] PHP Notice:  Undefined variable: abstract_websites in /home/fikretakdis/public_html/ekongre.nutuva.com/view/kayit.php on line 226
+[10-Mar-2021 17:23:07 Europe/Istanbul] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/fikretakdis/public_html/ekongre.nutuva.com/view/kayit.php on line 226

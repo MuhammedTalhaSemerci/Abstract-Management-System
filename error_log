@@ -1,0 +1,848 @@
+[16-Feb-2021 14:44:44 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php:7
+Stack trace:
+#0 /home/fikretakdis/public_html/ekongre.nutuva.com/controller/login.php(10): Users->getAll()
+#1 /home/fikretakdis/public_html/ekongre.nutuva.com/route.php(45): login->index()
+#2 /home/fikretakdis/public_html/ekongre.nutuva.com/index.php(12): Route::run('/', 'login@index')
+#3 {main}
+  thrown in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php on line 7
+[16-Feb-2021 14:45:53 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php:7
+Stack trace:
+#0 /home/fikretakdis/public_html/ekongre.nutuva.com/controller/login.php(10): Users->getAll()
+#1 /home/fikretakdis/public_html/ekongre.nutuva.com/route.php(45): login->index()
+#2 /home/fikretakdis/public_html/ekongre.nutuva.com/index.php(12): Route::run('/', 'login@index')
+#3 {main}
+  thrown in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php on line 7
+[16-Feb-2021 14:51:16 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on boolean in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php:7
+Stack trace:
+#0 /home/fikretakdis/public_html/ekongre.nutuva.com/controller/login.php(10): Users->getAll()
+#1 /home/fikretakdis/public_html/ekongre.nutuva.com/route.php(45): login->index()
+#2 /home/fikretakdis/public_html/ekongre.nutuva.com/index.php(12): Route::run('/', 'login@index')
+#3 {main}
+  thrown in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php on line 7
+[16-Feb-2021 15:36:42 Europe/Istanbul] PHP Warning:  extract() expects parameter 1 to be array, string given in /home/fikretakdis/public_html/ekongre.nutuva.com/controller.php on line 8
+[16-Feb-2021 15:40:58 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php:33
+Stack trace:
+#0 /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php(72): Users->getpwdreset('pwdReset', 'semerci394@gmai...')
+#1 /home/fikretakdis/public_html/ekongre.nutuva.com/route.php(45): pass_reset_c->pass_reset()
+#2 /home/fikretakdis/public_html/ekongre.nutuva.com/index.php(23): Route::run('/reset_request', 'pass_reset_c@pa...', Array)
+#3 {main}
+  thrown in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php on line 33
+[16-Feb-2021 15:42:06 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php:33
+Stack trace:
+#0 /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php(72): Users->getpwdreset('pwdReset', 'semerci394@gmai...')
+#1 /home/fikretakdis/public_html/ekongre.nutuva.com/route.php(45): pass_reset_c->pass_reset()
+#2 /home/fikretakdis/public_html/ekongre.nutuva.com/index.php(23): Route::run('/reset_request', 'pass_reset_c@pa...', Array)
+#3 {main}
+  thrown in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php on line 33
+[16-Feb-2021 15:42:08 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php:33
+Stack trace:
+#0 /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php(72): Users->getpwdreset('pwdReset', 'semerci394@gmai...')
+#1 /home/fikretakdis/public_html/ekongre.nutuva.com/route.php(45): pass_reset_c->pass_reset()
+#2 /home/fikretakdis/public_html/ekongre.nutuva.com/index.php(23): Route::run('/reset_request', 'pass_reset_c@pa...', Array)
+#3 {main}
+  thrown in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php on line 33
+[16-Feb-2021 15:42:14 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php:33
+Stack trace:
+#0 /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php(72): Users->getpwdreset('pwdReset', 'semerci394@gmai...')
+#1 /home/fikretakdis/public_html/ekongre.nutuva.com/route.php(45): pass_reset_c->pass_reset()
+#2 /home/fikretakdis/public_html/ekongre.nutuva.com/index.php(23): Route::run('/reset_request', 'pass_reset_c@pa...', Array)
+#3 {main}
+  thrown in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php on line 33
+[16-Feb-2021 15:42:54 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php:33
+Stack trace:
+#0 /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php(71): Users->getpwdreset('pwdReset', 'semerci394@gmai...')
+#1 /home/fikretakdis/public_html/ekongre.nutuva.com/route.php(45): pass_reset_c->pass_reset()
+#2 /home/fikretakdis/public_html/ekongre.nutuva.com/index.php(23): Route::run('/reset_request', 'pass_reset_c@pa...', Array)
+#3 {main}
+  thrown in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php on line 33
+[16-Feb-2021 15:43:00 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php:33
+Stack trace:
+#0 /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php(71): Users->getpwdreset('pwdReset', 'semerci394@gmai...')
+#1 /home/fikretakdis/public_html/ekongre.nutuva.com/route.php(45): pass_reset_c->pass_reset()
+#2 /home/fikretakdis/public_html/ekongre.nutuva.com/index.php(23): Route::run('/reset_request', 'pass_reset_c@pa...', Array)
+#3 {main}
+  thrown in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php on line 33
+[16-Feb-2021 15:43:27 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php:33
+Stack trace:
+#0 /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php(71): Users->getpwdreset('pwdReset', 'semerci394@gmai...')
+#1 /home/fikretakdis/public_html/ekongre.nutuva.com/route.php(45): pass_reset_c->pass_reset()
+#2 /home/fikretakdis/public_html/ekongre.nutuva.com/index.php(23): Route::run('/reset_request', 'pass_reset_c@pa...', Array)
+#3 {main}
+  thrown in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php on line 33
+[16-Feb-2021 15:44:08 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php:33
+Stack trace:
+#0 /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php(71): Users->getpwdreset('pwdReset', 'semerci394@gmai...')
+#1 /home/fikretakdis/public_html/ekongre.nutuva.com/route.php(45): pass_reset_c->pass_reset()
+#2 /home/fikretakdis/public_html/ekongre.nutuva.com/index.php(23): Route::run('/reset_request', 'pass_reset_c@pa...', Array)
+#3 {main}
+  thrown in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php on line 33
+[16-Feb-2021 15:44:11 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php:33
+Stack trace:
+#0 /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php(71): Users->getpwdreset('pwdReset', 'semerci394@gmai...')
+#1 /home/fikretakdis/public_html/ekongre.nutuva.com/route.php(45): pass_reset_c->pass_reset()
+#2 /home/fikretakdis/public_html/ekongre.nutuva.com/index.php(23): Route::run('/reset_request', 'pass_reset_c@pa...', Array)
+#3 {main}
+  thrown in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php on line 33
+[16-Feb-2021 15:44:52 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php:33
+Stack trace:
+#0 /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php(71): Users->getpwdreset('pwdReset', 'semerci394@gmai...')
+#1 /home/fikretakdis/public_html/ekongre.nutuva.com/route.php(45): pass_reset_c->pass_reset()
+#2 /home/fikretakdis/public_html/ekongre.nutuva.com/index.php(23): Route::run('/reset_request', 'pass_reset_c@pa...', Array)
+#3 {main}
+  thrown in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php on line 33
+[16-Feb-2021 15:45:20 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php:33
+Stack trace:
+#0 /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php(51): Users->getpwdreset('pwdReset', 'semerci394@gmai...')
+#1 /home/fikretakdis/public_html/ekongre.nutuva.com/route.php(45): pass_reset_c->pass_reset()
+#2 /home/fikretakdis/public_html/ekongre.nutuva.com/index.php(23): Route::run('/reset_request', 'pass_reset_c@pa...', Array)
+#3 {main}
+  thrown in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php on line 33
+[16-Feb-2021 15:45:22 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php:33
+Stack trace:
+#0 /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php(51): Users->getpwdreset('pwdReset', 'semerci394@gmai...')
+#1 /home/fikretakdis/public_html/ekongre.nutuva.com/route.php(45): pass_reset_c->pass_reset()
+#2 /home/fikretakdis/public_html/ekongre.nutuva.com/index.php(23): Route::run('/reset_request', 'pass_reset_c@pa...', Array)
+#3 {main}
+  thrown in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php on line 33
+[16-Feb-2021 15:45:23 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php:33
+Stack trace:
+#0 /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php(51): Users->getpwdreset('pwdReset', 'semerci394@gmai...')
+#1 /home/fikretakdis/public_html/ekongre.nutuva.com/route.php(45): pass_reset_c->pass_reset()
+#2 /home/fikretakdis/public_html/ekongre.nutuva.com/index.php(23): Route::run('/reset_request', 'pass_reset_c@pa...', Array)
+#3 {main}
+  thrown in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php on line 33
+[16-Feb-2021 15:49:05 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php:33
+Stack trace:
+#0 /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php(71): Users->getpwdreset('pwdReset', 'semerci394@gmai...')
+#1 /home/fikretakdis/public_html/ekongre.nutuva.com/route.php(45): pass_reset_c->pass_reset()
+#2 /home/fikretakdis/public_html/ekongre.nutuva.com/index.php(23): Route::run('/reset_request', 'pass_reset_c@pa...', Array)
+#3 {main}
+  thrown in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php on line 33
+[16-Feb-2021 15:49:06 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php:33
+Stack trace:
+#0 /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php(71): Users->getpwdreset('pwdReset', 'semerci394@gmai...')
+#1 /home/fikretakdis/public_html/ekongre.nutuva.com/route.php(45): pass_reset_c->pass_reset()
+#2 /home/fikretakdis/public_html/ekongre.nutuva.com/index.php(23): Route::run('/reset_request', 'pass_reset_c@pa...', Array)
+#3 {main}
+  thrown in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php on line 33
+[16-Feb-2021 15:49:09 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php:33
+Stack trace:
+#0 /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php(71): Users->getpwdreset('pwdReset', 'semerci394@gmai...')
+#1 /home/fikretakdis/public_html/ekongre.nutuva.com/route.php(45): pass_reset_c->pass_reset()
+#2 /home/fikretakdis/public_html/ekongre.nutuva.com/index.php(23): Route::run('/reset_request', 'pass_reset_c@pa...', Array)
+#3 {main}
+  thrown in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php on line 33
+[16-Feb-2021 15:49:10 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php:33
+Stack trace:
+#0 /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php(71): Users->getpwdreset('pwdReset', 'semerci394@gmai...')
+#1 /home/fikretakdis/public_html/ekongre.nutuva.com/route.php(45): pass_reset_c->pass_reset()
+#2 /home/fikretakdis/public_html/ekongre.nutuva.com/index.php(23): Route::run('/reset_request', 'pass_reset_c@pa...', Array)
+#3 {main}
+  thrown in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php on line 33
+[16-Feb-2021 15:49:11 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php:33
+Stack trace:
+#0 /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php(71): Users->getpwdreset('pwdReset', 'semerci394@gmai...')
+#1 /home/fikretakdis/public_html/ekongre.nutuva.com/route.php(45): pass_reset_c->pass_reset()
+#2 /home/fikretakdis/public_html/ekongre.nutuva.com/index.php(23): Route::run('/reset_request', 'pass_reset_c@pa...', Array)
+#3 {main}
+  thrown in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php on line 33
+[16-Feb-2021 15:49:12 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php:33
+Stack trace:
+#0 /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php(71): Users->getpwdreset('pwdReset', 'semerci394@gmai...')
+#1 /home/fikretakdis/public_html/ekongre.nutuva.com/route.php(45): pass_reset_c->pass_reset()
+#2 /home/fikretakdis/public_html/ekongre.nutuva.com/index.php(23): Route::run('/reset_request', 'pass_reset_c@pa...', Array)
+#3 {main}
+  thrown in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php on line 33
+[16-Feb-2021 15:49:12 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php:33
+Stack trace:
+#0 /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php(71): Users->getpwdreset('pwdReset', 'semerci394@gmai...')
+#1 /home/fikretakdis/public_html/ekongre.nutuva.com/route.php(45): pass_reset_c->pass_reset()
+#2 /home/fikretakdis/public_html/ekongre.nutuva.com/index.php(23): Route::run('/reset_request', 'pass_reset_c@pa...', Array)
+#3 {main}
+  thrown in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php on line 33
+[16-Feb-2021 15:49:12 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php:33
+Stack trace:
+#0 /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php(71): Users->getpwdreset('pwdReset', 'semerci394@gmai...')
+#1 /home/fikretakdis/public_html/ekongre.nutuva.com/route.php(45): pass_reset_c->pass_reset()
+#2 /home/fikretakdis/public_html/ekongre.nutuva.com/index.php(23): Route::run('/reset_request', 'pass_reset_c@pa...', Array)
+#3 {main}
+  thrown in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php on line 33
+[16-Feb-2021 15:49:12 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php:33
+Stack trace:
+#0 /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php(71): Users->getpwdreset('pwdReset', 'semerci394@gmai...')
+#1 /home/fikretakdis/public_html/ekongre.nutuva.com/route.php(45): pass_reset_c->pass_reset()
+#2 /home/fikretakdis/public_html/ekongre.nutuva.com/index.php(23): Route::run('/reset_request', 'pass_reset_c@pa...', Array)
+#3 {main}
+  thrown in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php on line 33
+[16-Feb-2021 15:49:12 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php:33
+Stack trace:
+#0 /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php(71): Users->getpwdreset('pwdReset', 'semerci394@gmai...')
+#1 /home/fikretakdis/public_html/ekongre.nutuva.com/route.php(45): pass_reset_c->pass_reset()
+#2 /home/fikretakdis/public_html/ekongre.nutuva.com/index.php(23): Route::run('/reset_request', 'pass_reset_c@pa...', Array)
+#3 {main}
+  thrown in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php on line 33
+[16-Feb-2021 15:49:12 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php:33
+Stack trace:
+#0 /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php(71): Users->getpwdreset('pwdReset', 'semerci394@gmai...')
+#1 /home/fikretakdis/public_html/ekongre.nutuva.com/route.php(45): pass_reset_c->pass_reset()
+#2 /home/fikretakdis/public_html/ekongre.nutuva.com/index.php(23): Route::run('/reset_request', 'pass_reset_c@pa...', Array)
+#3 {main}
+  thrown in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php on line 33
+[16-Feb-2021 15:49:12 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php:33
+Stack trace:
+#0 /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php(71): Users->getpwdreset('pwdReset', 'semerci394@gmai...')
+#1 /home/fikretakdis/public_html/ekongre.nutuva.com/route.php(45): pass_reset_c->pass_reset()
+#2 /home/fikretakdis/public_html/ekongre.nutuva.com/index.php(23): Route::run('/reset_request', 'pass_reset_c@pa...', Array)
+#3 {main}
+  thrown in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php on line 33
+[16-Feb-2021 15:49:12 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php:33
+Stack trace:
+#0 /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php(71): Users->getpwdreset('pwdReset', 'semerci394@gmai...')
+#1 /home/fikretakdis/public_html/ekongre.nutuva.com/route.php(45): pass_reset_c->pass_reset()
+#2 /home/fikretakdis/public_html/ekongre.nutuva.com/index.php(23): Route::run('/reset_request', 'pass_reset_c@pa...', Array)
+#3 {main}
+  thrown in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php on line 33
+[16-Feb-2021 15:49:12 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php:33
+Stack trace:
+#0 /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php(71): Users->getpwdreset('pwdReset', 'semerci394@gmai...')
+#1 /home/fikretakdis/public_html/ekongre.nutuva.com/route.php(45): pass_reset_c->pass_reset()
+#2 /home/fikretakdis/public_html/ekongre.nutuva.com/index.php(23): Route::run('/reset_request', 'pass_reset_c@pa...', Array)
+#3 {main}
+  thrown in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php on line 33
+[16-Feb-2021 15:49:12 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php:33
+Stack trace:
+#0 /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php(71): Users->getpwdreset('pwdReset', 'semerci394@gmai...')
+#1 /home/fikretakdis/public_html/ekongre.nutuva.com/route.php(45): pass_reset_c->pass_reset()
+#2 /home/fikretakdis/public_html/ekongre.nutuva.com/index.php(23): Route::run('/reset_request', 'pass_reset_c@pa...', Array)
+#3 {main}
+  thrown in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php on line 33
+[16-Feb-2021 15:49:13 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php:33
+Stack trace:
+#0 /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php(71): Users->getpwdreset('pwdReset', 'semerci394@gmai...')
+#1 /home/fikretakdis/public_html/ekongre.nutuva.com/route.php(45): pass_reset_c->pass_reset()
+#2 /home/fikretakdis/public_html/ekongre.nutuva.com/index.php(23): Route::run('/reset_request', 'pass_reset_c@pa...', Array)
+#3 {main}
+  thrown in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php on line 33
+[16-Feb-2021 15:49:13 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php:33
+Stack trace:
+#0 /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php(71): Users->getpwdreset('pwdReset', 'semerci394@gmai...')
+#1 /home/fikretakdis/public_html/ekongre.nutuva.com/route.php(45): pass_reset_c->pass_reset()
+#2 /home/fikretakdis/public_html/ekongre.nutuva.com/index.php(23): Route::run('/reset_request', 'pass_reset_c@pa...', Array)
+#3 {main}
+  thrown in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php on line 33
+[16-Feb-2021 15:49:13 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php:33
+Stack trace:
+#0 /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php(71): Users->getpwdreset('pwdReset', 'semerci394@gmai...')
+#1 /home/fikretakdis/public_html/ekongre.nutuva.com/route.php(45): pass_reset_c->pass_reset()
+#2 /home/fikretakdis/public_html/ekongre.nutuva.com/index.php(23): Route::run('/reset_request', 'pass_reset_c@pa...', Array)
+#3 {main}
+  thrown in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php on line 33
+[16-Feb-2021 15:49:13 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php:33
+Stack trace:
+#0 /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php(71): Users->getpwdreset('pwdReset', 'semerci394@gmai...')
+#1 /home/fikretakdis/public_html/ekongre.nutuva.com/route.php(45): pass_reset_c->pass_reset()
+#2 /home/fikretakdis/public_html/ekongre.nutuva.com/index.php(23): Route::run('/reset_request', 'pass_reset_c@pa...', Array)
+#3 {main}
+  thrown in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php on line 33
+[16-Feb-2021 15:49:13 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php:33
+Stack trace:
+#0 /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php(71): Users->getpwdreset('pwdReset', 'semerci394@gmai...')
+#1 /home/fikretakdis/public_html/ekongre.nutuva.com/route.php(45): pass_reset_c->pass_reset()
+#2 /home/fikretakdis/public_html/ekongre.nutuva.com/index.php(23): Route::run('/reset_request', 'pass_reset_c@pa...', Array)
+#3 {main}
+  thrown in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php on line 33
+[16-Feb-2021 15:49:13 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php:33
+Stack trace:
+#0 /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php(71): Users->getpwdreset('pwdReset', 'semerci394@gmai...')
+#1 /home/fikretakdis/public_html/ekongre.nutuva.com/route.php(45): pass_reset_c->pass_reset()
+#2 /home/fikretakdis/public_html/ekongre.nutuva.com/index.php(23): Route::run('/reset_request', 'pass_reset_c@pa...', Array)
+#3 {main}
+  thrown in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php on line 33
+[16-Feb-2021 15:49:13 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php:33
+Stack trace:
+#0 /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php(71): Users->getpwdreset('pwdReset', 'semerci394@gmai...')
+#1 /home/fikretakdis/public_html/ekongre.nutuva.com/route.php(45): pass_reset_c->pass_reset()
+#2 /home/fikretakdis/public_html/ekongre.nutuva.com/index.php(23): Route::run('/reset_request', 'pass_reset_c@pa...', Array)
+#3 {main}
+  thrown in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php on line 33
+[16-Feb-2021 15:49:13 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php:33
+Stack trace:
+#0 /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php(71): Users->getpwdreset('pwdReset', 'semerci394@gmai...')
+#1 /home/fikretakdis/public_html/ekongre.nutuva.com/route.php(45): pass_reset_c->pass_reset()
+#2 /home/fikretakdis/public_html/ekongre.nutuva.com/index.php(23): Route::run('/reset_request', 'pass_reset_c@pa...', Array)
+#3 {main}
+  thrown in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php on line 33
+[16-Feb-2021 15:49:13 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php:33
+Stack trace:
+#0 /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php(71): Users->getpwdreset('pwdReset', 'semerci394@gmai...')
+#1 /home/fikretakdis/public_html/ekongre.nutuva.com/route.php(45): pass_reset_c->pass_reset()
+#2 /home/fikretakdis/public_html/ekongre.nutuva.com/index.php(23): Route::run('/reset_request', 'pass_reset_c@pa...', Array)
+#3 {main}
+  thrown in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php on line 33
+[16-Feb-2021 15:49:13 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php:33
+Stack trace:
+#0 /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php(71): Users->getpwdreset('pwdReset', 'semerci394@gmai...')
+#1 /home/fikretakdis/public_html/ekongre.nutuva.com/route.php(45): pass_reset_c->pass_reset()
+#2 /home/fikretakdis/public_html/ekongre.nutuva.com/index.php(23): Route::run('/reset_request', 'pass_reset_c@pa...', Array)
+#3 {main}
+  thrown in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php on line 33
+[16-Feb-2021 15:49:13 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php:33
+Stack trace:
+#0 /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php(71): Users->getpwdreset('pwdReset', 'semerci394@gmai...')
+#1 /home/fikretakdis/public_html/ekongre.nutuva.com/route.php(45): pass_reset_c->pass_reset()
+#2 /home/fikretakdis/public_html/ekongre.nutuva.com/index.php(23): Route::run('/reset_request', 'pass_reset_c@pa...', Array)
+#3 {main}
+  thrown in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php on line 33
+[16-Feb-2021 15:49:13 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php:33
+Stack trace:
+#0 /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php(71): Users->getpwdreset('pwdReset', 'semerci394@gmai...')
+#1 /home/fikretakdis/public_html/ekongre.nutuva.com/route.php(45): pass_reset_c->pass_reset()
+#2 /home/fikretakdis/public_html/ekongre.nutuva.com/index.php(23): Route::run('/reset_request', 'pass_reset_c@pa...', Array)
+#3 {main}
+  thrown in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php on line 33
+[16-Feb-2021 15:49:13 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php:33
+Stack trace:
+#0 /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php(71): Users->getpwdreset('pwdReset', 'semerci394@gmai...')
+#1 /home/fikretakdis/public_html/ekongre.nutuva.com/route.php(45): pass_reset_c->pass_reset()
+#2 /home/fikretakdis/public_html/ekongre.nutuva.com/index.php(23): Route::run('/reset_request', 'pass_reset_c@pa...', Array)
+#3 {main}
+  thrown in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php on line 33
+[16-Feb-2021 15:49:15 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php:33
+Stack trace:
+#0 /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php(71): Users->getpwdreset('pwdReset', 'semerci394@gmai...')
+#1 /home/fikretakdis/public_html/ekongre.nutuva.com/route.php(45): pass_reset_c->pass_reset()
+#2 /home/fikretakdis/public_html/ekongre.nutuva.com/index.php(23): Route::run('/reset_request', 'pass_reset_c@pa...', Array)
+#3 {main}
+  thrown in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php on line 33
+[16-Feb-2021 15:49:15 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php:33
+Stack trace:
+#0 /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php(71): Users->getpwdreset('pwdReset', 'semerci394@gmai...')
+#1 /home/fikretakdis/public_html/ekongre.nutuva.com/route.php(45): pass_reset_c->pass_reset()
+#2 /home/fikretakdis/public_html/ekongre.nutuva.com/index.php(23): Route::run('/reset_request', 'pass_reset_c@pa...', Array)
+#3 {main}
+  thrown in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php on line 33
+[16-Feb-2021 15:49:15 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php:33
+Stack trace:
+#0 /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php(71): Users->getpwdreset('pwdReset', 'semerci394@gmai...')
+#1 /home/fikretakdis/public_html/ekongre.nutuva.com/route.php(45): pass_reset_c->pass_reset()
+#2 /home/fikretakdis/public_html/ekongre.nutuva.com/index.php(23): Route::run('/reset_request', 'pass_reset_c@pa...', Array)
+#3 {main}
+  thrown in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php on line 33
+[16-Feb-2021 15:49:16 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php:33
+Stack trace:
+#0 /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php(71): Users->getpwdreset('pwdReset', 'semerci394@gmai...')
+#1 /home/fikretakdis/public_html/ekongre.nutuva.com/route.php(45): pass_reset_c->pass_reset()
+#2 /home/fikretakdis/public_html/ekongre.nutuva.com/index.php(23): Route::run('/reset_request', 'pass_reset_c@pa...', Array)
+#3 {main}
+  thrown in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php on line 33
+[16-Feb-2021 15:49:16 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php:33
+Stack trace:
+#0 /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php(71): Users->getpwdreset('pwdReset', 'semerci394@gmai...')
+#1 /home/fikretakdis/public_html/ekongre.nutuva.com/route.php(45): pass_reset_c->pass_reset()
+#2 /home/fikretakdis/public_html/ekongre.nutuva.com/index.php(23): Route::run('/reset_request', 'pass_reset_c@pa...', Array)
+#3 {main}
+  thrown in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php on line 33
+[16-Feb-2021 15:49:16 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php:33
+Stack trace:
+#0 /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php(71): Users->getpwdreset('pwdReset', 'semerci394@gmai...')
+#1 /home/fikretakdis/public_html/ekongre.nutuva.com/route.php(45): pass_reset_c->pass_reset()
+#2 /home/fikretakdis/public_html/ekongre.nutuva.com/index.php(23): Route::run('/reset_request', 'pass_reset_c@pa...', Array)
+#3 {main}
+  thrown in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php on line 33
+[16-Feb-2021 15:49:16 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php:33
+Stack trace:
+#0 /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php(71): Users->getpwdreset('pwdReset', 'semerci394@gmai...')
+#1 /home/fikretakdis/public_html/ekongre.nutuva.com/route.php(45): pass_reset_c->pass_reset()
+#2 /home/fikretakdis/public_html/ekongre.nutuva.com/index.php(23): Route::run('/reset_request', 'pass_reset_c@pa...', Array)
+#3 {main}
+  thrown in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php on line 33
+[16-Feb-2021 15:49:16 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php:33
+Stack trace:
+#0 /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php(71): Users->getpwdreset('pwdReset', 'semerci394@gmai...')
+#1 /home/fikretakdis/public_html/ekongre.nutuva.com/route.php(45): pass_reset_c->pass_reset()
+#2 /home/fikretakdis/public_html/ekongre.nutuva.com/index.php(23): Route::run('/reset_request', 'pass_reset_c@pa...', Array)
+#3 {main}
+  thrown in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php on line 33
+[16-Feb-2021 15:49:17 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php:33
+Stack trace:
+#0 /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php(71): Users->getpwdreset('pwdReset', 'semerci394@gmai...')
+#1 /home/fikretakdis/public_html/ekongre.nutuva.com/route.php(45): pass_reset_c->pass_reset()
+#2 /home/fikretakdis/public_html/ekongre.nutuva.com/index.php(23): Route::run('/reset_request', 'pass_reset_c@pa...', Array)
+#3 {main}
+  thrown in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php on line 33
+[16-Feb-2021 15:49:18 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php:33
+Stack trace:
+#0 /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php(71): Users->getpwdreset('pwdReset', 'semerci394@gmai...')
+#1 /home/fikretakdis/public_html/ekongre.nutuva.com/route.php(45): pass_reset_c->pass_reset()
+#2 /home/fikretakdis/public_html/ekongre.nutuva.com/index.php(23): Route::run('/reset_request', 'pass_reset_c@pa...', Array)
+#3 {main}
+  thrown in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php on line 33
+[16-Feb-2021 15:49:19 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php:33
+Stack trace:
+#0 /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php(71): Users->getpwdreset('pwdReset', 'semerci394@gmai...')
+#1 /home/fikretakdis/public_html/ekongre.nutuva.com/route.php(45): pass_reset_c->pass_reset()
+#2 /home/fikretakdis/public_html/ekongre.nutuva.com/index.php(23): Route::run('/reset_request', 'pass_reset_c@pa...', Array)
+#3 {main}
+  thrown in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php on line 33
+[16-Feb-2021 15:50:53 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php:33
+Stack trace:
+#0 /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php(71): Users->getpwdreset('pwdReset', 'semerci394@gmai...')
+#1 /home/fikretakdis/public_html/ekongre.nutuva.com/route.php(45): pass_reset_c->pass_reset()
+#2 /home/fikretakdis/public_html/ekongre.nutuva.com/index.php(23): Route::run('/reset_request', 'pass_reset_c@pa...', Array)
+#3 {main}
+  thrown in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php on line 33
+[16-Feb-2021 15:51:55 Europe/Istanbul] PHP Warning:  extract() expects parameter 1 to be array, string given in /home/fikretakdis/public_html/ekongre.nutuva.com/controller.php on line 8
+[16-Feb-2021 15:52:04 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php:33
+Stack trace:
+#0 /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php(71): Users->getpwdreset('pwdReset', 'semerci394@gmai...')
+#1 /home/fikretakdis/public_html/ekongre.nutuva.com/route.php(45): pass_reset_c->pass_reset()
+#2 /home/fikretakdis/public_html/ekongre.nutuva.com/index.php(23): Route::run('/reset_request', 'pass_reset_c@pa...', Array)
+#3 {main}
+  thrown in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php on line 33
+[16-Feb-2021 15:52:14 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php:33
+Stack trace:
+#0 /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php(71): Users->getpwdreset('pwdReset', 'semerci394@gmai...')
+#1 /home/fikretakdis/public_html/ekongre.nutuva.com/route.php(45): pass_reset_c->pass_reset()
+#2 /home/fikretakdis/public_html/ekongre.nutuva.com/index.php(23): Route::run('/reset_request', 'pass_reset_c@pa...', Array)
+#3 {main}
+  thrown in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php on line 33
+[16-Feb-2021 15:52:34 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php:33
+Stack trace:
+#0 /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php(71): Users->getpwdreset('pwdReset', 'semerci394@gmai...')
+#1 /home/fikretakdis/public_html/ekongre.nutuva.com/route.php(45): pass_reset_c->pass_reset()
+#2 /home/fikretakdis/public_html/ekongre.nutuva.com/index.php(23): Route::run('/reset_request', 'pass_reset_c@pa...', Array)
+#3 {main}
+  thrown in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php on line 33
+[16-Feb-2021 15:52:35 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php:33
+Stack trace:
+#0 /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php(71): Users->getpwdreset('pwdReset', 'semerci394@gmai...')
+#1 /home/fikretakdis/public_html/ekongre.nutuva.com/route.php(45): pass_reset_c->pass_reset()
+#2 /home/fikretakdis/public_html/ekongre.nutuva.com/index.php(23): Route::run('/reset_request', 'pass_reset_c@pa...', Array)
+#3 {main}
+  thrown in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php on line 33
+[16-Feb-2021 15:52:36 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php:33
+Stack trace:
+#0 /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php(71): Users->getpwdreset('pwdReset', 'semerci394@gmai...')
+#1 /home/fikretakdis/public_html/ekongre.nutuva.com/route.php(45): pass_reset_c->pass_reset()
+#2 /home/fikretakdis/public_html/ekongre.nutuva.com/index.php(23): Route::run('/reset_request', 'pass_reset_c@pa...', Array)
+#3 {main}
+  thrown in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php on line 33
+[16-Feb-2021 15:52:54 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php:33
+Stack trace:
+#0 /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php(71): Users->getpwdreset('pwdReset', 'semerci394@gmai...')
+#1 /home/fikretakdis/public_html/ekongre.nutuva.com/route.php(45): pass_reset_c->pass_reset()
+#2 /home/fikretakdis/public_html/ekongre.nutuva.com/index.php(23): Route::run('/reset_request', 'pass_reset_c@pa...', Array)
+#3 {main}
+  thrown in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php on line 33
+[16-Feb-2021 15:52:56 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php:33
+Stack trace:
+#0 /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php(71): Users->getpwdreset('pwdReset', 'semerci394@gmai...')
+#1 /home/fikretakdis/public_html/ekongre.nutuva.com/route.php(45): pass_reset_c->pass_reset()
+#2 /home/fikretakdis/public_html/ekongre.nutuva.com/index.php(23): Route::run('/reset_request', 'pass_reset_c@pa...', Array)
+#3 {main}
+  thrown in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php on line 33
+[16-Feb-2021 15:54:44 Europe/Istanbul] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; pass_reset has a deprecated constructor in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 11
+[16-Feb-2021 15:54:44 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Class 'pass_reset_c' not found in /home/fikretakdis/public_html/ekongre.nutuva.com/route.php:45
+Stack trace:
+#0 /home/fikretakdis/public_html/ekongre.nutuva.com/index.php(23): Route::run('/reset_request', 'pass_reset_c@pa...', Array)
+#1 {main}
+  thrown in /home/fikretakdis/public_html/ekongre.nutuva.com/route.php on line 45
+[16-Feb-2021 15:54:45 Europe/Istanbul] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; pass_reset has a deprecated constructor in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 11
+[16-Feb-2021 15:54:45 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Class 'pass_reset_c' not found in /home/fikretakdis/public_html/ekongre.nutuva.com/route.php:45
+Stack trace:
+#0 /home/fikretakdis/public_html/ekongre.nutuva.com/index.php(23): Route::run('/reset_request', 'pass_reset_c@pa...', Array)
+#1 {main}
+  thrown in /home/fikretakdis/public_html/ekongre.nutuva.com/route.php on line 45
+[16-Feb-2021 15:54:47 Europe/Istanbul] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; pass_reset has a deprecated constructor in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 11
+[16-Feb-2021 15:54:47 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Class 'pass_reset_c' not found in /home/fikretakdis/public_html/ekongre.nutuva.com/route.php:45
+Stack trace:
+#0 /home/fikretakdis/public_html/ekongre.nutuva.com/index.php(23): Route::run('/reset_request', 'pass_reset_c@pa...', Array)
+#1 {main}
+  thrown in /home/fikretakdis/public_html/ekongre.nutuva.com/route.php on line 45
+[16-Feb-2021 15:55:43 Europe/Istanbul] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; pass_reset has a deprecated constructor in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 11
+[16-Feb-2021 15:55:44 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Class 'pass_reset_c' not found in /home/fikretakdis/public_html/ekongre.nutuva.com/route.php:45
+Stack trace:
+#0 /home/fikretakdis/public_html/ekongre.nutuva.com/index.php(23): Route::run('/reset_request', 'pass_reset_c@pa...', Array)
+#1 {main}
+  thrown in /home/fikretakdis/public_html/ekongre.nutuva.com/route.php on line 45
+[16-Feb-2021 15:55:45 Europe/Istanbul] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; pass_reset has a deprecated constructor in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 11
+[16-Feb-2021 15:55:45 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Class 'pass_reset_c' not found in /home/fikretakdis/public_html/ekongre.nutuva.com/route.php:45
+Stack trace:
+#0 /home/fikretakdis/public_html/ekongre.nutuva.com/index.php(23): Route::run('/reset_request', 'pass_reset_c@pa...', Array)
+#1 {main}
+  thrown in /home/fikretakdis/public_html/ekongre.nutuva.com/route.php on line 45
+[16-Feb-2021 15:56:25 Europe/Istanbul] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; pass_reset has a deprecated constructor in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 11
+[16-Feb-2021 15:56:25 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Class 'pass_reset_c' not found in /home/fikretakdis/public_html/ekongre.nutuva.com/route.php:45
+Stack trace:
+#0 /home/fikretakdis/public_html/ekongre.nutuva.com/index.php(23): Route::run('/reset_request', 'pass_reset_c@pa...', Array)
+#1 {main}
+  thrown in /home/fikretakdis/public_html/ekongre.nutuva.com/route.php on line 45
+[16-Feb-2021 15:56:27 Europe/Istanbul] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; pass_reset has a deprecated constructor in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 11
+[16-Feb-2021 15:56:27 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Class 'pass_reset_c' not found in /home/fikretakdis/public_html/ekongre.nutuva.com/route.php:45
+Stack trace:
+#0 /home/fikretakdis/public_html/ekongre.nutuva.com/index.php(23): Route::run('/reset_request', 'pass_reset_c@pa...', Array)
+#1 {main}
+  thrown in /home/fikretakdis/public_html/ekongre.nutuva.com/route.php on line 45
+[16-Feb-2021 15:56:37 Europe/Istanbul] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; pass_reset has a deprecated constructor in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 5
+[16-Feb-2021 15:56:37 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Class 'pass_reset_c' not found in /home/fikretakdis/public_html/ekongre.nutuva.com/route.php:45
+Stack trace:
+#0 /home/fikretakdis/public_html/ekongre.nutuva.com/index.php(23): Route::run('/reset_request', 'pass_reset_c@pa...', Array)
+#1 {main}
+  thrown in /home/fikretakdis/public_html/ekongre.nutuva.com/route.php on line 45
+[16-Feb-2021 15:56:38 Europe/Istanbul] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; pass_reset has a deprecated constructor in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 5
+[16-Feb-2021 15:56:38 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Class 'pass_reset_c' not found in /home/fikretakdis/public_html/ekongre.nutuva.com/route.php:45
+Stack trace:
+#0 /home/fikretakdis/public_html/ekongre.nutuva.com/index.php(23): Route::run('/reset_request', 'pass_reset_c@pa...', Array)
+#1 {main}
+  thrown in /home/fikretakdis/public_html/ekongre.nutuva.com/route.php on line 45
+[16-Feb-2021 15:56:39 Europe/Istanbul] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; pass_reset has a deprecated constructor in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 5
+[16-Feb-2021 15:56:39 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Class 'pass_reset_c' not found in /home/fikretakdis/public_html/ekongre.nutuva.com/route.php:45
+Stack trace:
+#0 /home/fikretakdis/public_html/ekongre.nutuva.com/index.php(23): Route::run('/reset_request', 'pass_reset_c@pa...', Array)
+#1 {main}
+  thrown in /home/fikretakdis/public_html/ekongre.nutuva.com/route.php on line 45
+[16-Feb-2021 15:56:52 Europe/Istanbul] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; pass_reset has a deprecated constructor in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 5
+[16-Feb-2021 15:56:52 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Class 'pass_reset_c' not found in /home/fikretakdis/public_html/ekongre.nutuva.com/route.php:45
+Stack trace:
+#0 /home/fikretakdis/public_html/ekongre.nutuva.com/index.php(23): Route::run('/reset_request', 'pass_reset_c@pa...', Array)
+#1 {main}
+  thrown in /home/fikretakdis/public_html/ekongre.nutuva.com/route.php on line 45
+[16-Feb-2021 15:56:53 Europe/Istanbul] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; pass_reset has a deprecated constructor in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 5
+[16-Feb-2021 15:56:53 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Class 'pass_reset_c' not found in /home/fikretakdis/public_html/ekongre.nutuva.com/route.php:45
+Stack trace:
+#0 /home/fikretakdis/public_html/ekongre.nutuva.com/index.php(23): Route::run('/reset_request', 'pass_reset_c@pa...', Array)
+#1 {main}
+  thrown in /home/fikretakdis/public_html/ekongre.nutuva.com/route.php on line 45
+[16-Feb-2021 15:57:55 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php:33
+Stack trace:
+#0 /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php(71): Users->getpwdreset('pwdReset', 'semerci394@gmai...')
+#1 /home/fikretakdis/public_html/ekongre.nutuva.com/route.php(45): pass_reset_c->pass_reset()
+#2 /home/fikretakdis/public_html/ekongre.nutuva.com/index.php(23): Route::run('/reset_request', 'pass_reset_c@pa...', Array)
+#3 {main}
+  thrown in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php on line 33
+[16-Feb-2021 15:57:57 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php:33
+Stack trace:
+#0 /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php(71): Users->getpwdreset('pwdReset', 'semerci394@gmai...')
+#1 /home/fikretakdis/public_html/ekongre.nutuva.com/route.php(45): pass_reset_c->pass_reset()
+#2 /home/fikretakdis/public_html/ekongre.nutuva.com/index.php(23): Route::run('/reset_request', 'pass_reset_c@pa...', Array)
+#3 {main}
+  thrown in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php on line 33
+[16-Feb-2021 15:58:29 Europe/Istanbul] PHP Notice:  Undefined variable: dbuye_mail_result in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 60
+[16-Feb-2021 15:59:24 Europe/Istanbul] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 167
+[16-Feb-2021 15:59:29 Europe/Istanbul] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 167
+[16-Feb-2021 15:59:41 Europe/Istanbul] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 135
+[16-Feb-2021 15:59:42 Europe/Istanbul] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 135
+[16-Feb-2021 16:00:01 Europe/Istanbul] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 106
+[16-Feb-2021 16:00:46 Europe/Istanbul] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 106
+[16-Feb-2021 16:00:57 Europe/Istanbul] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 87
+[16-Feb-2021 16:00:59 Europe/Istanbul] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 87
+[16-Feb-2021 16:01:00 Europe/Istanbul] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 87
+[16-Feb-2021 16:01:11 Europe/Istanbul] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 86
+[16-Feb-2021 16:01:12 Europe/Istanbul] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 86
+[16-Feb-2021 16:01:13 Europe/Istanbul] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 86
+[16-Feb-2021 16:01:41 Europe/Istanbul] PHP Parse error:  syntax error, unexpected '$Selector' (T_VARIABLE) in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 55
+[16-Feb-2021 16:01:42 Europe/Istanbul] PHP Parse error:  syntax error, unexpected '$Selector' (T_VARIABLE) in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 55
+[16-Feb-2021 16:01:59 Europe/Istanbul] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 81
+[16-Feb-2021 16:02:01 Europe/Istanbul] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 81
+[16-Feb-2021 16:02:15 Europe/Istanbul] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 72
+[16-Feb-2021 16:02:16 Europe/Istanbul] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 72
+[16-Feb-2021 16:02:27 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Class 'pass_reset_c' not found in /home/fikretakdis/public_html/ekongre.nutuva.com/route.php:45
+Stack trace:
+#0 /home/fikretakdis/public_html/ekongre.nutuva.com/index.php(22): Route::run('/sifreyenile', 'pass_reset_c@in...')
+#1 {main}
+  thrown in /home/fikretakdis/public_html/ekongre.nutuva.com/route.php on line 45
+[16-Feb-2021 16:02:30 Europe/Istanbul] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 70
+[16-Feb-2021 16:02:30 Europe/Istanbul] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 70
+[16-Feb-2021 16:03:36 Europe/Istanbul] PHP Notice:  Undefined variable: url in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 73
+[16-Feb-2021 16:03:36 Europe/Istanbul] PHP Notice:  Undefined variable: url in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 73
+[16-Feb-2021 16:03:36 Europe/Istanbul] PHP Notice:  Undefined variable: mail in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 93
+[16-Feb-2021 16:03:36 Europe/Istanbul] PHP Notice:  Undefined variable: mail in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 94
+[16-Feb-2021 16:03:36 Europe/Istanbul] PHP Notice:  Undefined variable: mail in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 95
+[16-Feb-2021 16:03:36 Europe/Istanbul] PHP Notice:  Undefined variable: mail in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 97
+[16-Feb-2021 16:03:36 Europe/Istanbul] PHP Notice:  Undefined variable: mail in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 98
+[16-Feb-2021 16:03:36 Europe/Istanbul] PHP Notice:  Undefined variable: mail in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 99
+[16-Feb-2021 16:03:36 Europe/Istanbul] PHP Notice:  Undefined variable: mail in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 100
+[16-Feb-2021 16:03:36 Europe/Istanbul] PHP Notice:  Undefined variable: mail in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 101
+[16-Feb-2021 16:03:36 Europe/Istanbul] PHP Notice:  Undefined variable: mail in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 103
+[16-Feb-2021 16:03:36 Europe/Istanbul] PHP Notice:  Undefined variable: mail in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 106
+[16-Feb-2021 16:03:36 Europe/Istanbul] PHP Notice:  Undefined variable: mail in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 107
+[16-Feb-2021 16:03:36 Europe/Istanbul] PHP Notice:  Undefined variable: mail in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 108
+[16-Feb-2021 16:03:36 Europe/Istanbul] PHP Notice:  Undefined variable: mail in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 109
+[16-Feb-2021 16:03:36 Europe/Istanbul] PHP Notice:  Undefined variable: mail in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 111
+[16-Feb-2021 16:03:36 Europe/Istanbul] PHP Notice:  Undefined variable: mail in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 113
+[16-Feb-2021 16:03:36 Europe/Istanbul] PHP Notice:  Undefined variable: mail in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 114
+[16-Feb-2021 16:03:36 Europe/Istanbul] PHP Notice:  Undefined variable: mail in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 115
+[16-Feb-2021 16:03:36 Europe/Istanbul] PHP Notice:  Undefined variable: mail in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 116
+[16-Feb-2021 16:04:18 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php:33
+Stack trace:
+#0 /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php(71): Users->getpwdreset('pwdReset', 'semerci394@gmai...')
+#1 /home/fikretakdis/public_html/ekongre.nutuva.com/route.php(45): pass_reset_c->pass_reset()
+#2 /home/fikretakdis/public_html/ekongre.nutuva.com/index.php(23): Route::run('/reset_request', 'pass_reset_c@pa...', Array)
+#3 {main}
+  thrown in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php on line 33
+[16-Feb-2021 16:04:42 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php:33
+Stack trace:
+#0 /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php(71): Users->getpwdreset('pwdReset', 'semerci394@gmai...')
+#1 /home/fikretakdis/public_html/ekongre.nutuva.com/route.php(45): pass_reset_c->pass_reset()
+#2 /home/fikretakdis/public_html/ekongre.nutuva.com/index.php(23): Route::run('/reset_request', 'pass_reset_c@pa...', Array)
+#3 {main}
+  thrown in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php on line 33
+[16-Feb-2021 16:04:42 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php:33
+Stack trace:
+#0 /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php(71): Users->getpwdreset('pwdReset', 'semerci394@gmai...')
+#1 /home/fikretakdis/public_html/ekongre.nutuva.com/route.php(45): pass_reset_c->pass_reset()
+#2 /home/fikretakdis/public_html/ekongre.nutuva.com/index.php(23): Route::run('/reset_request', 'pass_reset_c@pa...', Array)
+#3 {main}
+  thrown in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php on line 33
+[16-Feb-2021 16:04:43 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php:33
+Stack trace:
+#0 /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php(71): Users->getpwdreset('pwdReset', 'semerci394@gmai...')
+#1 /home/fikretakdis/public_html/ekongre.nutuva.com/route.php(45): pass_reset_c->pass_reset()
+#2 /home/fikretakdis/public_html/ekongre.nutuva.com/index.php(23): Route::run('/reset_request', 'pass_reset_c@pa...', Array)
+#3 {main}
+  thrown in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php on line 33
+[16-Feb-2021 16:05:35 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php:33
+Stack trace:
+#0 /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php(71): Users->getpwdreset('pwdReset', 'semerci394@gmai...')
+#1 /home/fikretakdis/public_html/ekongre.nutuva.com/route.php(45): pass_reset_c->pass_reset()
+#2 /home/fikretakdis/public_html/ekongre.nutuva.com/index.php(23): Route::run('/reset_request', 'pass_reset_c@pa...', Array)
+#3 {main}
+  thrown in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php on line 33
+[16-Feb-2021 16:05:36 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php:33
+Stack trace:
+#0 /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php(71): Users->getpwdreset('pwdReset', 'semerci394@gmai...')
+#1 /home/fikretakdis/public_html/ekongre.nutuva.com/route.php(45): pass_reset_c->pass_reset()
+#2 /home/fikretakdis/public_html/ekongre.nutuva.com/index.php(23): Route::run('/reset_request', 'pass_reset_c@pa...', Array)
+#3 {main}
+  thrown in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php on line 33
+[16-Feb-2021 16:06:14 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php:33
+Stack trace:
+#0 /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php(71): Users->getpwdreset('pwdReset', 'semerci394@gmai...')
+#1 /home/fikretakdis/public_html/ekongre.nutuva.com/route.php(45): pass_reset_c->pass_reset()
+#2 /home/fikretakdis/public_html/ekongre.nutuva.com/index.php(23): Route::run('/reset_request', 'pass_reset_c@pa...', Array)
+#3 {main}
+  thrown in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php on line 33
+[16-Feb-2021 16:06:15 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php:33
+Stack trace:
+#0 /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php(71): Users->getpwdreset('pwdReset', 'semerci394@gmai...')
+#1 /home/fikretakdis/public_html/ekongre.nutuva.com/route.php(45): pass_reset_c->pass_reset()
+#2 /home/fikretakdis/public_html/ekongre.nutuva.com/index.php(23): Route::run('/reset_request', 'pass_reset_c@pa...', Array)
+#3 {main}
+  thrown in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php on line 33
+[16-Feb-2021 16:07:05 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php:33
+Stack trace:
+#0 /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php(71): Users->getpwdreset('pwdReset', 'semerci394@gmai...')
+#1 /home/fikretakdis/public_html/ekongre.nutuva.com/route.php(45): pass_reset_c->pass_reset()
+#2 /home/fikretakdis/public_html/ekongre.nutuva.com/index.php(23): Route::run('/reset_request', 'pass_reset_c@pa...', Array)
+#3 {main}
+  thrown in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php on line 33
+[16-Feb-2021 16:08:44 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php:33
+Stack trace:
+#0 /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php(71): Users->getpwdreset('pwdReset', 'semerci394@gmai...')
+#1 /home/fikretakdis/public_html/ekongre.nutuva.com/route.php(45): pass_reset_c->pass_reset()
+#2 /home/fikretakdis/public_html/ekongre.nutuva.com/index.php(23): Route::run('/reset_request', 'pass_reset_c@pa...', Array)
+#3 {main}
+  thrown in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php on line 33
+[16-Feb-2021 16:08:45 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php:33
+Stack trace:
+#0 /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php(71): Users->getpwdreset('pwdReset', 'semerci394@gmai...')
+#1 /home/fikretakdis/public_html/ekongre.nutuva.com/route.php(45): pass_reset_c->pass_reset()
+#2 /home/fikretakdis/public_html/ekongre.nutuva.com/index.php(23): Route::run('/reset_request', 'pass_reset_c@pa...', Array)
+#3 {main}
+  thrown in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php on line 33
+[16-Feb-2021 16:08:48 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php:33
+Stack trace:
+#0 /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php(71): Users->getpwdreset('pwdReset', 'semerci394@gmai...')
+#1 /home/fikretakdis/public_html/ekongre.nutuva.com/route.php(45): pass_reset_c->pass_reset()
+#2 /home/fikretakdis/public_html/ekongre.nutuva.com/index.php(23): Route::run('/reset_request', 'pass_reset_c@pa...', Array)
+#3 {main}
+  thrown in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php on line 33
+[16-Feb-2021 16:09:08 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php:33
+Stack trace:
+#0 /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php(71): Users->getpwdreset('pwdReset', 'semerci394@gmai...')
+#1 /home/fikretakdis/public_html/ekongre.nutuva.com/route.php(45): pass_reset_c->pass_reset()
+#2 /home/fikretakdis/public_html/ekongre.nutuva.com/index.php(23): Route::run('/reset_request', 'pass_reset_c@pa...', Array)
+#3 {main}
+  thrown in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php on line 33
+[16-Feb-2021 16:09:09 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php:33
+Stack trace:
+#0 /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php(71): Users->getpwdreset('pwdReset', 'semerci394@gmai...')
+#1 /home/fikretakdis/public_html/ekongre.nutuva.com/route.php(45): pass_reset_c->pass_reset()
+#2 /home/fikretakdis/public_html/ekongre.nutuva.com/index.php(23): Route::run('/reset_request', 'pass_reset_c@pa...', Array)
+#3 {main}
+  thrown in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php on line 33
+[16-Feb-2021 16:09:10 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php:33
+Stack trace:
+#0 /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php(71): Users->getpwdreset('pwdReset', 'semerci394@gmai...')
+#1 /home/fikretakdis/public_html/ekongre.nutuva.com/route.php(45): pass_reset_c->pass_reset()
+#2 /home/fikretakdis/public_html/ekongre.nutuva.com/index.php(23): Route::run('/reset_request', 'pass_reset_c@pa...', Array)
+#3 {main}
+  thrown in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php on line 33
+[16-Feb-2021 16:09:29 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php:33
+Stack trace:
+#0 /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php(71): Users->getpwdreset('pwdReset', 'denem')
+#1 /home/fikretakdis/public_html/ekongre.nutuva.com/route.php(45): pass_reset_c->pass_reset()
+#2 /home/fikretakdis/public_html/ekongre.nutuva.com/index.php(23): Route::run('/reset_request', 'pass_reset_c@pa...', Array)
+#3 {main}
+  thrown in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php on line 33
+[16-Feb-2021 16:09:31 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php:33
+Stack trace:
+#0 /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php(71): Users->getpwdreset('pwdReset', 'denem')
+#1 /home/fikretakdis/public_html/ekongre.nutuva.com/route.php(45): pass_reset_c->pass_reset()
+#2 /home/fikretakdis/public_html/ekongre.nutuva.com/index.php(23): Route::run('/reset_request', 'pass_reset_c@pa...', Array)
+#3 {main}
+  thrown in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php on line 33
+[16-Feb-2021 16:11:05 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php:20
+Stack trace:
+#0 /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php(71): Users->getuserreset('pwdReset', 'denem')
+#1 /home/fikretakdis/public_html/ekongre.nutuva.com/route.php(45): pass_reset_c->pass_reset()
+#2 /home/fikretakdis/public_html/ekongre.nutuva.com/index.php(23): Route::run('/reset_request', 'pass_reset_c@pa...', Array)
+#3 {main}
+  thrown in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php on line 20
+[16-Feb-2021 16:11:07 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php:20
+Stack trace:
+#0 /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php(71): Users->getuserreset('pwdReset', 'denem')
+#1 /home/fikretakdis/public_html/ekongre.nutuva.com/route.php(45): pass_reset_c->pass_reset()
+#2 /home/fikretakdis/public_html/ekongre.nutuva.com/index.php(23): Route::run('/reset_request', 'pass_reset_c@pa...', Array)
+#3 {main}
+  thrown in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php on line 20
+[16-Feb-2021 16:11:22 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php:20
+Stack trace:
+#0 /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php(71): Users->getuserreset('pwdReset', 'denem')
+#1 /home/fikretakdis/public_html/ekongre.nutuva.com/route.php(45): pass_reset_c->pass_reset()
+#2 /home/fikretakdis/public_html/ekongre.nutuva.com/index.php(23): Route::run('/reset_request', 'pass_reset_c@pa...', Array)
+#3 {main}
+  thrown in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php on line 20
+[16-Feb-2021 16:11:23 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php:20
+Stack trace:
+#0 /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php(71): Users->getuserreset('pwdReset', 'denem')
+#1 /home/fikretakdis/public_html/ekongre.nutuva.com/route.php(45): pass_reset_c->pass_reset()
+#2 /home/fikretakdis/public_html/ekongre.nutuva.com/index.php(23): Route::run('/reset_request', 'pass_reset_c@pa...', Array)
+#3 {main}
+  thrown in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php on line 20
+[16-Feb-2021 16:11:24 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php:20
+Stack trace:
+#0 /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php(71): Users->getuserreset('pwdReset', 'denem')
+#1 /home/fikretakdis/public_html/ekongre.nutuva.com/route.php(45): pass_reset_c->pass_reset()
+#2 /home/fikretakdis/public_html/ekongre.nutuva.com/index.php(23): Route::run('/reset_request', 'pass_reset_c@pa...', Array)
+#3 {main}
+  thrown in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php on line 20
+[16-Feb-2021 16:18:46 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php:33
+Stack trace:
+#0 /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php(71): Users->getpwdreset('pwdReset', 'semerci394@gmai...')
+#1 /home/fikretakdis/public_html/ekongre.nutuva.com/route.php(45): pass_reset_c->pass_reset()
+#2 /home/fikretakdis/public_html/ekongre.nutuva.com/index.php(23): Route::run('/reset_request', 'pass_reset_c@pa...', Array)
+#3 {main}
+  thrown in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php on line 33
+[16-Feb-2021 16:20:12 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php:33
+Stack trace:
+#0 /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php(71): Users->getpwdreset('pwdReset', 'semerci394@gmai...')
+#1 /home/fikretakdis/public_html/ekongre.nutuva.com/route.php(45): pass_reset_c->pass_reset()
+#2 /home/fikretakdis/public_html/ekongre.nutuva.com/index.php(23): Route::run('/reset_request', 'pass_reset_c@pa...', Array)
+#3 {main}
+  thrown in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php on line 33
+[16-Feb-2021 16:20:14 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php:33
+Stack trace:
+#0 /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php(71): Users->getpwdreset('pwdReset', 'semerci394@gmai...')
+#1 /home/fikretakdis/public_html/ekongre.nutuva.com/route.php(45): pass_reset_c->pass_reset()
+#2 /home/fikretakdis/public_html/ekongre.nutuva.com/index.php(23): Route::run('/reset_request', 'pass_reset_c@pa...', Array)
+#3 {main}
+  thrown in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php on line 33
+[16-Feb-2021 16:25:05 Europe/Istanbul] PHP Fatal error:  Cannot declare class Users, because the name is already in use in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php on line 157
+[16-Feb-2021 16:25:56 Europe/Istanbul] PHP Fatal error:  Cannot declare class Users, because the name is already in use in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php on line 157
+[16-Feb-2021 16:25:59 Europe/Istanbul] PHP Fatal error:  Cannot declare class Users, because the name is already in use in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php on line 157
+[16-Feb-2021 16:26:00 Europe/Istanbul] PHP Fatal error:  Cannot declare class Users, because the name is already in use in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php on line 157
+[16-Feb-2021 16:26:02 Europe/Istanbul] PHP Fatal error:  Cannot declare class Users, because the name is already in use in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php on line 157
+[16-Feb-2021 16:26:09 Europe/Istanbul] PHP Fatal error:  Cannot declare class Users, because the name is already in use in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php on line 157
+[16-Feb-2021 16:31:22 Europe/Istanbul] PHP Fatal error:  Cannot declare class Users, because the name is already in use in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php on line 157
+[16-Feb-2021 16:31:24 Europe/Istanbul] PHP Fatal error:  Cannot declare class Users, because the name is already in use in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php on line 157
+[16-Feb-2021 16:33:34 Europe/Istanbul] PHP Fatal error:  Cannot declare class Users, because the name is already in use in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php on line 157
+[16-Feb-2021 16:33:36 Europe/Istanbul] PHP Fatal error:  Cannot declare class Users, because the name is already in use in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php on line 157
+[16-Feb-2021 16:33:37 Europe/Istanbul] PHP Fatal error:  Cannot declare class Users, because the name is already in use in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php on line 157
+[16-Feb-2021 16:33:39 Europe/Istanbul] PHP Fatal error:  Cannot declare class Users, because the name is already in use in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php on line 157
+[16-Feb-2021 16:33:57 Europe/Istanbul] PHP Fatal error:  Cannot declare class Users, because the name is already in use in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php on line 157
+[16-Feb-2021 16:33:59 Europe/Istanbul] PHP Fatal error:  Cannot declare class Users, because the name is already in use in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php on line 157
+[16-Feb-2021 16:34:00 Europe/Istanbul] PHP Fatal error:  Cannot declare class Users, because the name is already in use in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php on line 157
+[16-Feb-2021 16:34:31 Europe/Istanbul] PHP Fatal error:  Cannot declare class Users, because the name is already in use in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php on line 157
+[16-Feb-2021 16:36:04 Europe/Istanbul] PHP Fatal error:  Cannot declare class Users, because the name is already in use in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php on line 157
+[16-Feb-2021 16:36:56 Europe/Istanbul] PHP Fatal error:  Cannot declare class Users, because the name is already in use in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php on line 157
+[16-Feb-2021 16:38:28 Europe/Istanbul] PHP Notice:  Undefined variable: mail in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 120
+[16-Feb-2021 16:38:28 Europe/Istanbul] PHP Notice:  Undefined variable: mail in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 121
+[16-Feb-2021 16:38:28 Europe/Istanbul] PHP Notice:  Undefined variable: mail in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 122
+[16-Feb-2021 16:38:28 Europe/Istanbul] PHP Notice:  Undefined variable: mail in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 124
+[16-Feb-2021 16:38:28 Europe/Istanbul] PHP Notice:  Undefined variable: mail in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 125
+[16-Feb-2021 16:38:28 Europe/Istanbul] PHP Notice:  Undefined variable: mail in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 126
+[16-Feb-2021 16:38:28 Europe/Istanbul] PHP Notice:  Undefined variable: mail in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 127
+[16-Feb-2021 16:38:28 Europe/Istanbul] PHP Notice:  Undefined variable: mail in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 128
+[16-Feb-2021 16:38:28 Europe/Istanbul] PHP Notice:  Undefined variable: mail in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 130
+[16-Feb-2021 16:38:28 Europe/Istanbul] PHP Notice:  Undefined variable: mail in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 133
+[16-Feb-2021 16:38:28 Europe/Istanbul] PHP Notice:  Undefined variable: mail in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 134
+[16-Feb-2021 16:38:28 Europe/Istanbul] PHP Notice:  Undefined variable: mail in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 135
+[16-Feb-2021 16:38:28 Europe/Istanbul] PHP Notice:  Undefined variable: mail in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 136
+[16-Feb-2021 16:38:28 Europe/Istanbul] PHP Notice:  Undefined variable: mail in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 138
+[16-Feb-2021 16:38:28 Europe/Istanbul] PHP Notice:  Undefined variable: mail in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 140
+[16-Feb-2021 16:38:28 Europe/Istanbul] PHP Notice:  Undefined variable: mail in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 141
+[16-Feb-2021 16:38:28 Europe/Istanbul] PHP Notice:  Undefined variable: mail in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 142
+[16-Feb-2021 16:38:28 Europe/Istanbul] PHP Notice:  Undefined variable: mail in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 143
+[16-Feb-2021 16:39:12 Europe/Istanbul] PHP Notice:  Undefined variable: mail in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 120
+[16-Feb-2021 16:39:12 Europe/Istanbul] PHP Notice:  Undefined variable: mail in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 121
+[16-Feb-2021 16:39:12 Europe/Istanbul] PHP Notice:  Undefined variable: mail in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 122
+[16-Feb-2021 16:39:12 Europe/Istanbul] PHP Notice:  Undefined variable: mail in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 124
+[16-Feb-2021 16:39:12 Europe/Istanbul] PHP Notice:  Undefined variable: mail in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 125
+[16-Feb-2021 16:39:12 Europe/Istanbul] PHP Notice:  Undefined variable: mail in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 126
+[16-Feb-2021 16:39:12 Europe/Istanbul] PHP Notice:  Undefined variable: mail in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 127
+[16-Feb-2021 16:39:12 Europe/Istanbul] PHP Notice:  Undefined variable: mail in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 128
+[16-Feb-2021 16:39:12 Europe/Istanbul] PHP Notice:  Undefined variable: mail in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 130
+[16-Feb-2021 16:39:12 Europe/Istanbul] PHP Notice:  Undefined variable: mail in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 133
+[16-Feb-2021 16:39:12 Europe/Istanbul] PHP Notice:  Undefined variable: mail in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 134
+[16-Feb-2021 16:39:12 Europe/Istanbul] PHP Notice:  Undefined variable: mail in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 135
+[16-Feb-2021 16:39:12 Europe/Istanbul] PHP Notice:  Undefined variable: mail in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 136
+[16-Feb-2021 16:39:12 Europe/Istanbul] PHP Notice:  Undefined variable: mail in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 138
+[16-Feb-2021 16:39:12 Europe/Istanbul] PHP Notice:  Undefined variable: mail in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 140
+[16-Feb-2021 16:39:12 Europe/Istanbul] PHP Notice:  Undefined variable: mail in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 141
+[16-Feb-2021 16:39:12 Europe/Istanbul] PHP Notice:  Undefined variable: mail in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 142
+[16-Feb-2021 16:39:12 Europe/Istanbul] PHP Notice:  Undefined variable: mail in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 143
+[16-Feb-2021 16:41:00 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php:41
+Stack trace:
+#0 /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php(228): Users->getpwd_by_ts('pwdReset', '12216903012237f...', '8eb264bd4b3846e...')
+#1 /home/fikretakdis/public_html/ekongre.nutuva.com/route.php(45): pass_reset_c->new_pass_save()
+#2 /home/fikretakdis/public_html/ekongre.nutuva.com/index.php(25): Route::run('/yenisifrekayit', 'pass_reset_c@ne...', Array)
+#3 {main}
+  thrown in /home/fikretakdis/public_html/ekongre.nutuva.com/model/users.php on line 41
+[16-Feb-2021 16:42:56 Europe/Istanbul] PHP Warning:  extract() expects parameter 1 to be array, string given in /home/fikretakdis/public_html/ekongre.nutuva.com/controller.php on line 8
+[16-Feb-2021 18:54:47 Europe/Istanbul] PHP Notice:  Undefined variable: mail in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 120
+[16-Feb-2021 18:54:47 Europe/Istanbul] PHP Notice:  Undefined variable: mail in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 121
+[16-Feb-2021 18:54:47 Europe/Istanbul] PHP Notice:  Undefined variable: mail in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 122
+[16-Feb-2021 18:54:47 Europe/Istanbul] PHP Notice:  Undefined variable: mail in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 124
+[16-Feb-2021 18:54:47 Europe/Istanbul] PHP Notice:  Undefined variable: mail in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 125
+[16-Feb-2021 18:54:47 Europe/Istanbul] PHP Notice:  Undefined variable: mail in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 126
+[16-Feb-2021 18:54:47 Europe/Istanbul] PHP Notice:  Undefined variable: mail in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 127
+[16-Feb-2021 18:54:47 Europe/Istanbul] PHP Notice:  Undefined variable: mail in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 128
+[16-Feb-2021 18:54:47 Europe/Istanbul] PHP Notice:  Undefined variable: mail in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 130
+[16-Feb-2021 18:54:47 Europe/Istanbul] PHP Notice:  Undefined variable: mail in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 133
+[16-Feb-2021 18:54:47 Europe/Istanbul] PHP Notice:  Undefined variable: mail in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 134
+[16-Feb-2021 18:54:47 Europe/Istanbul] PHP Notice:  Undefined variable: mail in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 135
+[16-Feb-2021 18:54:47 Europe/Istanbul] PHP Notice:  Undefined variable: mail in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 136
+[16-Feb-2021 18:54:47 Europe/Istanbul] PHP Notice:  Undefined variable: mail in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 138
+[16-Feb-2021 18:54:47 Europe/Istanbul] PHP Notice:  Undefined variable: mail in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 140
+[16-Feb-2021 18:54:47 Europe/Istanbul] PHP Notice:  Undefined variable: mail in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 141
+[16-Feb-2021 18:54:47 Europe/Istanbul] PHP Notice:  Undefined variable: mail in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 142
+[16-Feb-2021 18:54:47 Europe/Istanbul] PHP Notice:  Undefined variable: mail in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 143
+[16-Feb-2021 18:56:45 Europe/Istanbul] PHP Notice:  Undefined variable: mail in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 120
+[16-Feb-2021 18:56:45 Europe/Istanbul] PHP Notice:  Undefined variable: mail in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 121
+[16-Feb-2021 18:56:45 Europe/Istanbul] PHP Notice:  Undefined variable: mail in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 122
+[16-Feb-2021 18:56:45 Europe/Istanbul] PHP Notice:  Undefined variable: mail in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 124
+[16-Feb-2021 18:56:45 Europe/Istanbul] PHP Notice:  Undefined variable: mail in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 125
+[16-Feb-2021 18:56:45 Europe/Istanbul] PHP Notice:  Undefined variable: mail in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 126
+[16-Feb-2021 18:56:45 Europe/Istanbul] PHP Notice:  Undefined variable: mail in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 127
+[16-Feb-2021 18:56:45 Europe/Istanbul] PHP Notice:  Undefined variable: mail in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 128
+[16-Feb-2021 18:56:45 Europe/Istanbul] PHP Notice:  Undefined variable: mail in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 130
+[16-Feb-2021 18:56:45 Europe/Istanbul] PHP Notice:  Undefined variable: mail in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 133
+[16-Feb-2021 18:56:45 Europe/Istanbul] PHP Notice:  Undefined variable: mail in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 134
+[16-Feb-2021 18:56:45 Europe/Istanbul] PHP Notice:  Undefined variable: mail in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 135
+[16-Feb-2021 18:56:45 Europe/Istanbul] PHP Notice:  Undefined variable: mail in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 136
+[16-Feb-2021 18:56:45 Europe/Istanbul] PHP Notice:  Undefined variable: mail in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 138
+[16-Feb-2021 18:56:45 Europe/Istanbul] PHP Notice:  Undefined variable: mail in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 140
+[16-Feb-2021 18:56:45 Europe/Istanbul] PHP Notice:  Undefined variable: mail in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 141
+[16-Feb-2021 18:56:45 Europe/Istanbul] PHP Notice:  Undefined variable: mail in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 142
+[16-Feb-2021 18:56:45 Europe/Istanbul] PHP Notice:  Undefined variable: mail in /home/fikretakdis/public_html/ekongre.nutuva.com/controller/pass_reset_c.php on line 143

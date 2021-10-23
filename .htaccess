@@ -1,0 +1,14 @@
+
+php_value session.cookie_lifetime 3000
+
+php_value session.gc_maxlifetime 3000
+
+php_value upload_max_filesize 1000M
+php_value post_max_size 1001M
+php_value max_execution_time 3600
+php_value max_input_time -1
+php_value memory_limit 256M
+php_value date.timezone 'Europe/Istanbul'
+
+RewriteEngine On
+RewriteRule ^([0-9a-zA-Z-_/]+)$ index.php [QSA,L]
