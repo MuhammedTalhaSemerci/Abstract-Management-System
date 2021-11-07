@@ -25,6 +25,10 @@
 
 ![GIF](/repo-images/image2.png)
 
+* Kongre kaydı bulunmayan veya onaylanmamış kullanıcılar giriş yaptıklarında hata ekranı ile karşılaşır.
+
+![GIF](/repo-images/image14.png)
+
 
 # Bildiri Yükleme
 
