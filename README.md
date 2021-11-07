@@ -32,6 +32,14 @@
 
 # Bildiri Yükleme
 
+* Bildiriler sisteme İngilizce veya İngilizce-Türkçe olmak üzere 2 şekilde yüklenebilir.
+
+![GIF](/repo-images/image3.png)
+
+* Sisteme Yüklenen bildiriler Word veya Pdf olarak görüntülenebilir.
+
+![GIF](/repo-images/image4.png)
+![GIF](/repo-images/image5.png)
 
     
 
