@@ -10,6 +10,7 @@
 # Kullanılan Teknolojiler
 
 * PHP
+* PHP Mailer
 * HTML 5
 * CSS 3
 * BigBlueButton
@@ -59,3 +60,22 @@
 * Hazırlanan bilimsel program istenilen tarihte yayınlanabilir.
 
 ![GIF](/repo-images/image9.png)
+
+# Sanal Kongre
+### Sözlü Sunumlar
+* Oluşturulan bilimsel programa göre tüm oturumlar görüntülebiilir ve katılım sağlanabilir.
+
+![GIF](/repo-images/image10.png)
+
+* Oturumlar BigBlueButton üzerinde gerçkeleştirilirken sunum sahiplerinin sisteme yükledikleri sunumlar otomatik olarak oturumun içine eklenir. 
+
+![GIF](/repo-images/image11.png)
+
+
+### Posterler
+
+* Poster sunumları toplu olarak pdf formatında listelenir.
+
+![GIF](/repo-images/image12.png)
+![GIF](/repo-images/image13.png)
+
