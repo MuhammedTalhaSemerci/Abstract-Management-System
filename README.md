@@ -40,6 +40,22 @@
 
 ![GIF](/repo-images/image4.png)
 
+# Bildiri Değerlendirme
+
+* Bildirileri hakemler değerlendirir. Her bildiri istenilen hakemlere atanır ve değerlendirme süreci başlar. Atanan hakem bildiriyi inceler ve tinymce html editörü içerisinde eğer varsa hataları yoksa düşüncelerini yazar.
+
+![GIF](/repo-images/image6.png)
     
+* Düzenlenen bildiri artık kaydoldu ve editör'ün/admin'in incelemesi için hazır.
 
+![GIF](/repo-images/image7.png)
 
+# Bilimsel Program
+
+* Tüm bildiriler değerlendirildikten sonra onaylanan bildiriler için artık bilimsel program hazırlama zamanı:
+
+![GIF](/repo-images/image8.png)
+
+* Hazırlanan bilimsel program istenilen tarihte yayınlanabilir.
+
+![GIF](/repo-images/image9.png)
